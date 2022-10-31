@@ -35,3 +35,46 @@ retorno esperado: Identity added: id_ed25519 (lucascidade96@gmail.com)
 
 ssh - nao usa senha (digitada)
 token - usa (mais ou menos)
+
+criando repositório git
+
+entrar na pasta "workspace" 
+mkdir "pasta"
+entrar na pasta com o CD
+
+commands > git init
+
+se for a primeira vez rodando o git, passar as configurações do commit 
+
+git config --global user.email "email.com"
+git config --global user.name "naem"
+
+
+criando o arquivo
+git add * (todos os arquivos)
+
+git commit -m "mensagem" 
+
+______________
+
+about commands
+
+git init
+	- inicia um repositorio
+	what is repository?
+		- 
+tracked
+	divide-se UNTRACKED, UNMODIFIED, MODIFIED, STAGED.
+
+
+ex:
+	untracked - criação do arquivo
+	git add * - move para o staged
+
+_________________________
+
+aponta repositorio github
+: git remote add origin "url"
+
+git remote -v (lista repositorios remotos cadastrados)
+_________________________________________________________________
